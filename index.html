@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css-js bootstrap/bootstrap.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Home</title>
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <!-- Tambahin class fixed-top supaya tetap diatas jika di scroll -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+      
+      <div class="container">
+        <!-- Untuk brand hrefnya arahin ke ./index.html, di halaman lain juga begitu -->
+        <a class="navbar-brand" href="./index.html">
+          <img src="./Images/logo perpus.png" alt="Perpustakaan Bersama">
+          <h1 class="name-brand">Perpustakaan <br>Bersama</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Profile
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./fisi dan misi.html">Visi dan Misi</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="./struktur organisasi.html">Struktur Organisasi</a></li>
+              </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Daftar Buku
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./buku pendidikan.html">Buku Pendidikan</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="./buku umum.html">Buku Umum</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Layanan
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./kontak kami.html">Kontak Kami</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="./jam oprasional.html">Jam Operasional</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- AKHIR NAVBAR -->
+
+    <!-- HERO -->
+    <div class="hero">
+      <div class="container d-flex justify-content-center">
+       <div class="row text-center">
+         <div class="col text-hero">
+          <h1 class="display-5">
+            Selamat Datang Di Perpustakaan Bersama
+          </h1>
+          <p class="lead pb-3 pt-3">"Pengetahuan adalah kekuatan yang tidak kenal batas"
+          </p>
+          <a href="./jam oprasional.html" target="_blank">
+            <button type="button" class="btn btn-primary btn-lg" >Jam Oprasional</button>
+          </a>
+         </div>
+       </div>
+      </div>
+      <div class="overlay"></div>
+    </div>
+    <!-- AKHIR HERO -->
+
+
+    <!-- BUKU TERPOPULER -->
+
+    <section class="special pb-5 pt-5" id="Buku Terpopuler">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col">
+            <div class="card text-center">
+              <div class="card-body">
+                <h3 class="card-title">Buku Terpopuler</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5 mb-5 d-flex justify-content-center align-items-center">
+          <div class="col-6 pt-3 pb-3 col-sm-6 col-md-4">
+            <div class="card">
+              <img src="./images/pendidikan 2.png" class="card-img-top" alt="Buku Pendidikan">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="./desain grafis.html">Desain Grafis</a>
+                </h5>                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 pt-3 pb-3 col-sm-6 col-md-4">
+            <div class="card">
+              <img src="./images/pendidikan 4.png" class="card-img-top" alt="Buku Pendidikan">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="./perakitan komputer.html">Perakitan Komputer</a>
+                 </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 pt-3 pb-3 col-sm-6 col-md-4">
+            <div class="card">
+              <img src="./images/umum 3.png" class="card-img-top" alt="Buku Umum">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="./nikah muda.html">Sekolah? Yes <br> Nikah Muda? No Way!</a>
+                 </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AKHIR BUKU TERPOPULER -->
+
+    <footer>
+      &copy; Copyright 2021 | Perpustakaan Bersama
+    </footer>
+
+
+    <script src="./css-js bootstrap/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

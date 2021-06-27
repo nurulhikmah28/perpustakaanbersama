@@ -1,0 +1,123 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* .navbar{
+    background-color: #08534d !important;
+} */
+.navbar .navbar-nav .nav-item a{
+    color: white;
+    font-weight: 300;
+}
+.navbar .navbar-nav .nav-item a:hover{
+    color: #9ACD32;
+}
+.navbar .navbar-nav .nav-item a.active{
+    color: #ffb703;
+}
+.navbar-brand {
+    color: #9ACD32 !important;
+    font-size: 28px;
+}
+.hero{
+    margin-top: 100px;
+    min-height: 500px;
+    background-image: url('../images/iperpus.png');
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.text-hero{
+    z-index: 9;
+}
+/* salah ambil class */
+/* .hero .display-4{
+    font-weight: 700;
+    color: #ffffff;
+} */
+
+.hero .display-5{
+    font-weight: 700;
+    color: #ffffff;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6);
+}
+.hero p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+.card-title a{
+    color: #023047;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px;
+}
+.card-title a:hover{
+    text-decoration: underline;
+}
+.regular-price{
+    font-size: 15px;
+    color: #fb8500;
+}
+
+footer{
+    background-color: #eaeaee;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* TAMBAHAN CSS */
+/* modifikasi navbar */
+.navbar{
+    background-color: #08534d !important;
+    padding: 30px 0;
+}
+
+/* untuk bg dropdown */
+.dropdown-menu{
+    background-color: #076b6bbe;
+}
+
+/* modifikasi navbar-brand */
+.navbar-brand {
+    color: #9ACD32 !important;
+    display: flex;
+    min-width: 200px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.navbar-brand h1{
+    font-size: 20px;
+    margin: auto;
+}
+
+.navbar-brand img{
+    height: 46px;
+}
+
+.card-title{
+    font-size: 24px;
+}
+.detail{
+    padding: 100px;
+    width: 100%;
+}
+.layanan{
+    padding: 100px;
+}
