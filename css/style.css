@@ -22,7 +22,7 @@ body{
 .hero{
     margin-top: 100px;
     min-height: 500px;
-    background-image: url('../images/iperpus.jpg');
+    background-image: url('../Images/iperpus.jpg');
     background-attachment: fixed;
     background-size: cover;
     display: flex;
